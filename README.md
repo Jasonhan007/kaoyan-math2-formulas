@@ -1,6 +1,6 @@
 # 考研数学二公式大全
 
-**在线访问**：https://jasonhan007.github.io/kaoyan-math2-formulas/ · **仓库**：https://github.com/Jasonhan007/kaoyan-math2-formulas
+**在线访问**：https://jasonhan007.github.io/kaoyan-math2-formulas-v2/ · **仓库**：https://github.com/Jasonhan007/kaoyan-math2-formulas-v2 （旧地址 https://jasonhan007.github.io/kaoyan-math2-formulas/ 仍可用）
 
 覆盖**高等数学**与**线性代数**的公式速查网页，共 **205 条**公式。采用**多页结构**：首页为章节目录，每个小节独立一页，另有收藏页，避免单页过长。每条公式包含名称、LaTeX、成立条件与易错提醒；支持搜索、收藏、复制 LaTeX / `$$` 与源码查看。界面参考 Apple iOS 风格（玻璃拟态卡片、吸顶栏），已按 iPhone 18 Pro 逻辑分辨率（402×874）适配，并提供桌面端双列布局。
 
