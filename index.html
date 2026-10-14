@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description" content="考研数学二公式大全：高等数学与线性代数核心公式，支持搜索、收藏、复制 LaTeX。" />
+  <title>考研数学二公式大全</title>
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="vendor/katex/katex/katex.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <button class="nav-back" id="navBack" hidden aria-label="返回">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m14.5 5-7 7 7 7"/></svg>
+        <span>返回</span>
+      </button>
+      <div class="nav-title" id="navTitle">考研数学二 · 公式大全</div>
+      <div class="nav-right">
+        <span class="nav-count" id="navCount"></span>
+      </div>
+    </div>
+  </header>
+
+  <main class="view" id="view"></main>
+
+  <footer class="footer" id="footer">
+    <div class="footer-card">
+      <h3>说明与来源</h3>
+      <p>本页公式依据教育部教育考试院《全国硕士研究生招生考试数学考试大纲（数学二）》的考查范围，参考同济大学《高等数学》（第七版）、《线性代数》（第六版）及常见考研辅导讲义整理核对。</p>
+      <p>大纲结构核对来源：<a href="https://www.offcn.com/kaoyan/2024/0923/273451.html" target="_blank" rel="noopener">2025 考研数学（二）考试大纲原文（中公教育转载）</a>。数二范围不含无穷级数、三重积分、曲线/曲面积分、空间解析几何、概率统计等科目内容。</p>
+      <p class="footer-note">带「待核验」标记的条目为考查范围边缘内容（如定积分物理应用、二重积分的形心、全微分方程），请以报考当年官方大纲的最终表述为准。</p>
+      <p class="footer-meta" id="footerMeta"></p>
+    </div>
+  </footer>
+
+  <noscript>
+    <div class="noscript">本页面需要启用 JavaScript 才能渲染公式与搜索功能。</div>
+  </noscript>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="vendor/katex/katex/katex.min.js"></script>
+  <script src="js/data-gaoshu.js"></script>
+  <script src="js/data-xiandai.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
